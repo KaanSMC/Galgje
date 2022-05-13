@@ -5,4 +5,5 @@ woorden = (" “informatica”, “informatiekunde”, “spelletje”, “aardi
 print(random.choice(woorden))
  
 
-print("hi")
+
+print("hallo")
