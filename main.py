@@ -1,9 +1,12 @@
 import random
 print("Welkom bij Galgje!")
 
-woorden = (" “informatica”, “informatiekunde”, “spelletje”, “aardigheidje”, “scholier”, “fotografie”, “waardebepaling”, “specialiteit”, “verzekering”, “universiteit” en “heesterperk”.")
-print(random.choice(woorden))
- 
+woorden = ("informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk")
 
+def get_woorden():
 
-print("hallo")
+    print(random.choice(woorden))
+
+    return woorden
+
+get_woorden()
