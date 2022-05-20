@@ -1,12 +1,18 @@
-import random
+import random as r
 print("Welkom bij Galgje!")
+wordlist = ["informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk"]
 
-word = ("informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk")
+randomWord = r.choice(wordlist)
 
-def get_word():
+print(randomWord)
+print(len(randomWord))
 
-    print(random.choice(word))
+isGameRunning = True
 
-    return word
+def get_woorden():
 
-get_word()
+    print(r.choice(randomWord))
+
+    return randomWord
+
+get_woorden()
